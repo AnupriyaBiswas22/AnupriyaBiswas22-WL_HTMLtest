@@ -771,8 +771,7 @@ a{
     position: relative;
 
     width: 100%;
-    padding: 6rem 0;
-    background-color: #285A43;
+    padding: 3.5rem 0;
 
     display: flex;
     flex-wrap: wrap;
@@ -780,6 +779,12 @@ a{
     flex-direction: column;
     justify-content: center;
     align-content: center;
+    background: url("images/Monstera.png") 3% 123% no-repeat, url("images/fern.png") 97% 100% no-repeat, #285A43;
+}
+.socials::before{
+    content: "";
+    background-color: #285A43;
+    opacity: 0.6;
 }
 .socials .socialhead{
     padding-top: 1rem;
