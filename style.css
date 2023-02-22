@@ -779,7 +779,8 @@ a{
     flex-direction: column;
     justify-content: center;
     align-content: center;
-    background: url("images/Monstera.png") 3% 123% no-repeat, url("images/fern.png") 97% 100% no-repeat, #285A43;
+    background: url("images/Monstera.png") 3% 120% no-repeat, url("images/fern.png") 97% 125% no-repeat, #285A43;
+    background-size: 21% 60%;
 }
 .socials::before{
     content: "";
